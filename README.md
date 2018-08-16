@@ -1,5 +1,5 @@
 ---
-description: Landing page for my KnowledgeBase
+description: My Knowledge Base
 ---
 
 # Knowledge Home
