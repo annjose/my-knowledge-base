@@ -1,4 +1,10 @@
-# my-knowledge-base
-Sum of all my knowledge base - collection of notes on all the technologies that I have learned so far.
+---
+description: Landing page for my KnowledgeBase
+---
 
-The KB is managed in gitbook here https://legacy.gitbook.com/book/annjose/tech-kb/details
+# Knowledge Home
+
+Welcome to my knowledge base where I will share all things technical that I learn from blogs, tutorials, articles etc. My goal is to publish all the information that may prove to be useful someone out there.
+
+ 
+
