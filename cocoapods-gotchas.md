@@ -18,8 +18,8 @@ There are two options (as the warning also indicates) - either delete the build 
   * OR click on the dropdown and select `Other..` so that a text popup appears. Set/replace the text with the value `$(inherited)`. Dismiss the text popup; make sure that the value is updated
 * Run `pod install` again. It should run without any warnings
 
-## Unit Tests wail without executing
-In some projects, I have seen that when a specific Pod is added to the Tests target only, the tests just don't execute - even if there is only one emoty test function in the whole project. There won't be any test failures, but no tests would be run and Xcode will show the "test failed" notification. The logs in Report navigator) will show the error:
+## Unit Tests Fail Without Executing
+In some projects with specific Pods in Tests target, the tests will fail without even executing, i.e. Xcode test job shows "Test Failed" notification, but none of the tests would have executed. This happens even if there is only one empty test function in the whole project. The logs in Report navigator shows the following error:
 
 ```
 URLSessionMockerSample.app (32192) encountered an error (Early unexpected exit, operation never finished bootstrapping 
