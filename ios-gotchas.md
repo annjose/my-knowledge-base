@@ -23,30 +23,21 @@ Solution: Press Cmd+K \(Toggle keyboard\) on the simulator window.
 * Make sure that the user is not excluded by any rule
 * If you added a specific user-based rule, make sure that the userid is available in LD
 
-#### Neat Debugging Trick to See Background Color in UI views {#neat-debugging-trick-to-see-background-color-in-ui-views}
+### Neat Debugging Trick to See Background Color in UI views {#neat-debugging-trick-to-see-background-color-in-ui-views}
 
 * Set a background color for all your UI views in the storyboard
 * Add all those views to a an IBOutlet Referencing Outlet collections \(right click and choose "New Ref Out Coll..."
 * Then in the viewDidLoad of your view controller, iterate through the colors and set the background color to clear
 
-> override func viewDidLoad\(\) {
->
-> ```text
-> super.viewDidLoad\(\)
->
-> // Clear background colors from labels and buttons.
->
-> // backgroundColoredViews is a Reference Outlet collection created from the Storyboard
->
-> for view in backgroundColoredViews {
->
->     view.backgroundColor = UIColor.clear
->
-> }
-> ```
->
-> }
+```swift
+override func viewDidLoad\(\) {
+  super.viewDidLoad\(\)
 
-* 
+  // Clear background colors from labels and buttons.
+  // backgroundColoredViews is a Reference Outlet collection created from the Storyboard
 
-
+  for view in backgroundColoredViews {
+    view.backgroundColor = UIColor.clear
+  }
+}
+ ```
