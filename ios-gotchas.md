@@ -1,5 +1,11 @@
 # iOS Gotchas
 
+### Neat Trick to send deep link to an app in a simulator
+The target app's Info.plist should have the URL scheme `acj` registered. There should be a simulator running with the app installed.
+``` 
+xcrun simctl openurl booted "acj://message/1000"
+```
+
 ### Keyboard does not appear on Simulator when you tap inside a text field
 
 Root cause: One potential reason is that the hardware keyboard is enabled. You can confirm this by checking if NSNotification for keyboardWillShow and keyboardWillHide are mixed up \(i.e when you tap inside a text field, the notification keyboardWillHide is sent instead of keyboardWillShow\)
