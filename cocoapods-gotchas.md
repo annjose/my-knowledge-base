@@ -20,6 +20,51 @@ There are two options (as the warning also indicates) - either delete the build 
   * OR click on the dropdown and select `Other..` so that a text popup appears. Set/replace the text with the value `$(inherited)`. Dismiss the text popup; make sure that the value is updated
 * Run `pod install` again. It should run without any warnings
 
+### Unit Tests Fail to Launch
+In some projects, I have seen that when a specific Pod is added to the Tests target only, the tests just don't execute - even if there is only one emoty test function in the whole project. There won't be any test failures, but no tests would be run and Xcode will show the "test failed" notification. The logs in Report navigator) will show the error:
+
+```
+URLSessionMockerSample.app (32192) encountered an error (Early unexpected exit, operation never finished bootstrapping 
+- no restart will be attempted. 
+(Underlying error: The test runner exited with code 1 before checking in.))
+```
+
+I have seen this issue with a specific Cocoapod named `Mocker`. Here is the Podfile for that project:
+```
+target 'URLSessionMockerSample' do
+  target 'URLSessionMockerSampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Mocker'
+  end
+end
+```
+
+When I replaced `Mocker` pod with another Pod (eg: `AFNetworking`), the tests executed properly. There seems to something specific to that pod (although I couldn't find anything special in its pod spec).
+
+Two workarounds I found for this problem were:
+1. Add the offending pod outside the Tests target - as follows
+```
+target 'URLSessionMockerSample' do
+  pod 'Mocker'
+  target 'URLSessionMockerSampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+```
+2. Change the structure of the Podfile such that the test targets are at the same level as the app target as follows:
+```
+target 'URLSessionMockerSample' do
+end
+
+target 'URLSessionMockerSampleTests' do
+  # inherit! :search_paths
+  # Pods for testing
+  pod 'Mocker'
+end
+```
+
 ## Https Error while running `pod install`
 
 ```text
