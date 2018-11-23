@@ -15,7 +15,7 @@
 * To see PRs that were closed without merging after a specific date
   * is:pr is:unmerged state:closed closed:&gt;2018-04-01
 
-#### Set the Correct Email to GitHub account {#set-the-correct-email-to-github-account}
+#### Set the Correct Email to GitHub account <a id="set-the-correct-email-to-github-account"></a>
 
 When you switch between the public github and Intuit github, you may have trouble seeing the correct user associated with the commits. In order to avoid this mismatch, you need to set the correct git user BEFORE you make the commits.
 
@@ -33,7 +33,7 @@ Command to see all local configuration \(can be run only from a git repo\)
 
 > git config --local --list
 
-#### The Best Solution {#the-best-solution}
+#### The Best Solution <a id="the-best-solution"></a>
 
 * Configure the local repos pointing to public GitHub to use Gmail address. Configure global value to be Intuit EMail address
   * > cd ~/dev/GitHub/my-learnings git config --local user.email "ann.jose@gmail.com"

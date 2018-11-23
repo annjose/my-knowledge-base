@@ -3,7 +3,6 @@
 * [Knowledge Home](README.md)
 * [Cocoapods Gotchas](cocoapods-gotchas.md)
 * [iOS Gotchas](ios-gotchas.md)
-* [iOS References](ios-references.md)
 * [Google Calendar API](google-calendar-api.md)
 * [Firebase](firebase.md)
 * [Mobile Application Services](mobile-application-services.md)

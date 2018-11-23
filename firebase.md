@@ -13,7 +13,7 @@ Allows the configuration of the app to change based on users / segments etc. Equ
 * Provides automatic performance tracking for network calls
   * You can also track specific actions using `Performance.startTrace`, `Performance.incrementCounter`and `Performance.stop`
 
-#### Test Lab {#test-lab}
+#### Test Lab <a id="test-lab"></a>
 
 [https://firebase.google.com/docs/test-lab/](https://firebase.google.com/docs/test-lab/)
 

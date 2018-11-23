@@ -14,7 +14,7 @@ Remote Config is Firebase's equivalent of LaunchDarkly. You can combine Remote C
 
 Details - [https://firebase.google.com/docs/remote-config/parameters](https://firebase.google.com/docs/remote-config/parameters)
 
-#### Good Articles {#good-articles}
+#### Good Articles <a id="good-articles"></a>
 
 * [https://willowtreeapps.com/ideas/how-feature-toggles-can-enable-ab-testing-in-mobile-apps](https://willowtreeapps.com/ideas/how-feature-toggles-can-enable-ab-testing-in-mobile-apps)
 
