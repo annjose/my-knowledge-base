@@ -9,16 +9,19 @@
 
 ## Mobile Development
 
-* [Cocoapods Gotchas](cocoapods-gotchas.md)
-* [Google Calendar API](google-calendar-api.md)
-* [Firebase](firebase.md)
-* [Mobile Application Services](mobile-application-services.md)
-* [AB Testing](ab-testing.md)
+* [Cocoapods Gotchas](mobile-development/cocoapods-gotchas.md)
+* [Google Calendar API](mobile-development/google-calendar-api.md)
+* [Firebase](mobile-development/firebase.md)
+* [Mobile Application Services](mobile-development/mobile-application-services.md)
+* [AB Testing](mobile-development/ab-testing.md)
 
 ## Fun Stuff
-* [MacOS Gotchas](macos-gotchas.md)
-* [Git](git.md)
-* [Teamcity](teamcity.md)
+
+* [MacOS Gotchas](fun-stuff/macos-gotchas.md)
+* [Git](fun-stuff/git.md)
+* [Teamcity](fun-stuff/teamcity.md)
 
 ## Good References
-* [Reference Articles](reference-articles.md)
+
+* [Reference Articles](good-references/reference-articles.md)
+
