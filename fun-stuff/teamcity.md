@@ -1,6 +1,6 @@
-# Teamcity
+# CI/CD
 
-#### Pull Request Builds Nuances
+### TeamCity Pull Request Builds
 
 * TeamCity is working on making Pull Request as first class citizens - [https://youtrack.jetbrains.com/issue/TW-43759](https://youtrack.jetbrains.com/issue/TW-43759)
 * Request to enable filtering of PRs based on target branch - [https://youtrack.jetbrains.com/issue/TW-43759](https://youtrack.jetbrains.com/issue/TW-43759)

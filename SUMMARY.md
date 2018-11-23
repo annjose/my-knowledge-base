@@ -15,13 +15,13 @@
 * [Mobile Application Services](mobile-development/mobile-application-services.md)
 * [AB Testing](mobile-development/ab-testing.md)
 
-## Fun Stuff
+## Other Technical Stuff
 
 * [Command Line](fun-stuff/macos-gotchas.md)
 * [Git](fun-stuff/git.md)
-* [Teamcity](fun-stuff/teamcity.md)
+* [CI/CD](fun-stuff/teamcity.md)
 
-## Good References
+## References
 
-* [Reference Articles](good-references/reference-articles.md)
+* [Good Reference Articles](good-references/reference-articles.md)
 
