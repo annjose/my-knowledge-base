@@ -1,4 +1,8 @@
-# MacOS Gotchas
+---
+description: Useful info on using command line
+---
+
+# Command Line
 
 ### How To Change the Shell
 

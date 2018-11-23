@@ -6,8 +6,6 @@ Root cause: One potential reason is that the hardware keyboard is enabled. You c
 
 Solution: Press Cmd+K \(Toggle keyboard\) on the simulator window.
 
-![test](../.gitbook/assets/desktop_1690x1060_zs_pro_a.png)
-
 ## Unnecessary vertical blank space at the top of UITableView <a id="unnecessary-vertical-blank-space-at-the-top-of-uitableview"></a>
 
 [https://stackoverflow.com/questions/18880341/why-is-there-extra-padding-at-the-top-of-my-uitableview-with-style-uitableviewst?utm\_medium=organic&utm\_source=google\_rich\_qa&utm\_campaign=google\_rich\_qa](https://stackoverflow.com/questions/18880341/why-is-there-extra-padding-at-the-top-of-my-uitableview-with-style-uitableviewst?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
@@ -16,9 +14,7 @@ Solution: Press Cmd+K \(Toggle keyboard\) on the simulator window.
 
 * Check if the tableView's estimatedRowHeight is set. On iOS 10, it has to be set explicitly sometimes.
 
-## Guidelines for LaunchDarkly FeatureFlag
-
-**Problem: The flag value comes as the default value**
+## LaunchDarkly FeatureFlag Has Default Value, Not Actual Value
 
 * Make sure that you are pointing to the same LD environment as the QBSE server environment
 * Make sure that the Targeting is ON

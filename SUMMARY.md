@@ -17,7 +17,7 @@
 
 ## Fun Stuff
 
-* [MacOS Gotchas](fun-stuff/macos-gotchas.md)
+* [Command Line](fun-stuff/macos-gotchas.md)
 * [Git](fun-stuff/git.md)
 * [Teamcity](fun-stuff/teamcity.md)
 
