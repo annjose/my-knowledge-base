@@ -15,6 +15,10 @@
 * [Mobile Application Services](mobile-development/mobile-application-services.md)
 * [AB Testing](mobile-development/ab-testing.md)
 
+## Machine Learning
+
+* [Notes from Google ML Course](machine-learning/notes-from-google-ml-course.md)
+
 ## Other Technical Stuff
 
 * [Command Line](fun-stuff/macos-gotchas.md)
