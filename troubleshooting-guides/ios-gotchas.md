@@ -1,4 +1,4 @@
-# iOS Gotchas
+# iOS Troubleshooting
 
 ## Keyboard does not appear on Simulator when you tap inside a text field
 

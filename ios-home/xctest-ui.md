@@ -1,4 +1,4 @@
-# XCTest UI
+# UI Testing XCTestUI
 
 #### Good Article References
 

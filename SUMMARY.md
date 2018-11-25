@@ -1,32 +1,26 @@
 # Table of contents
 
 * [Home](README.md)
-
-## iOS
-
-* [iOS Gotchas](ios/ios-gotchas.md)
-* [XCTest UI](ios/xctest-ui.md)
-* [ViewController Concepts](ios/ios-concepts.md)
-
-## Mobile Development
-
-* [Cocoapods Gotchas](mobile-development/cocoapods-gotchas.md)
-* [Firebase](mobile-development/firebase.md)
-* [Mobile Application Services](mobile-development/mobile-application-services.md)
-* [AB Testing](mobile-development/ab-testing.md)
-
-## Machine Learning
-
-* [Notes from Google ML Course](machine-learning/notes-from-google-ml-course.md)
-
-## Other Technical Stuff
-
-* [Command Line](fun-stuff/macos-gotchas.md)
-* [Git](fun-stuff/git.md)
-* [Google Calendar API](fun-stuff/google-calendar-api.md)
-* [CI/CD](fun-stuff/teamcity.md)
+* [iOS](ios-home/README.md)
+  * [UI Testing XCTestUI](ios-home/xctest-ui.md)
+  * [ViewController Concepts](ios-home/ios-concepts.md)
+* [Mobile Development](mobile-development-1/README.md)
+  * [Firebase](mobile-development-1/firebase.md)
+  * [Mobile Application Services](mobile-development-1/mobile-application-services.md)
+  * [AB Testing](mobile-development-1/ab-testing.md)
+* [Machine Learning](machine-learning-1/README.md)
+  * [Notes from Google ML Course](machine-learning-1/notes-from-google-ml-course.md)
+* [More Tech Stuff](more-tech-stuff/README.md)
+  * [Command Line](more-tech-stuff/macos-gotchas.md)
+  * [Git](more-tech-stuff/git.md)
+  * [Google Calendar API](more-tech-stuff/google-calendar-api.md)
+  * [CI/CD](more-tech-stuff/teamcity.md)
+* [Troubleshooting Guides](troubleshooting-guides/README.md)
+  * [iOS Troubleshooting](troubleshooting-guides/ios-gotchas.md)
+  * [Cocoapods Troubleshooting](troubleshooting-guides/cocoapods-gotchas.md)
 
 ## References
 
-* [Good Reference Articles](good-references/reference-articles.md)
+* [iOS](good-references/ios.md)
+* [Misc](good-references/reference-articles.md)
 

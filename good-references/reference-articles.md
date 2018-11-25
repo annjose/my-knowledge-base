@@ -2,12 +2,7 @@
 description: A list of really good articles and references
 ---
 
-# Good Reference Articles
-
-### iOS
-
-* UIStackView Tutorial by Ray Wenderlich - [https://www.raywenderlich.com/160646/uistackview-tutorial-introducing-stack-views-2](https://www.raywenderlich.com/160646/uistackview-tutorial-introducing-stack-views-2)
-* Documentation markup in Swift - [https://nshipster.com/swift-documentation/\]\(https://nshipster.com/swift-documentation/](https://nshipster.com/swift-documentation/]%28https://nshipster.com/swift-documentation/)
+# Misc
 
 ### **GraphQL**
 

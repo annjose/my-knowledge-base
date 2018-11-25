@@ -1,4 +1,4 @@
-# Cocoapods Gotchas
+# Cocoapods Troubleshooting
 
 ### Cocoapods warning ALWAYS\_EMBED\_SWIFT\_STANDARD\_LIBRARIES
 
