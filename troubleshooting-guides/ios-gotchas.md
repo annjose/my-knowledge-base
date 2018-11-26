@@ -21,30 +21,5 @@ Solution: Press Cmd+K \(Toggle keyboard\) on the simulator window.
 * Make sure that the user is not excluded by any rule
 * If you added a specific user-based rule, make sure that the userid is available in LD
 
-## Neat Debugging Trick to send deep link to an app in a simulator
 
-The target app's Info.plist should have the URL scheme `acj` registered. There should be a simulator running with the app installed.
-
-```text
-xcrun simctl openurl booted "acj://message/1000"
-```
-
-## Neat Debugging Trick to See Background Color in UI views <a id="neat-debugging-trick-to-see-background-color-in-ui-views"></a>
-
-* Set a background color for all your UI views in the storyboard
-* Add all those views to a an IBOutlet Referencing Outlet collections \(right click and choose "New Ref Out Coll..."
-* Then in the viewDidLoad of your view controller, iterate through the colors and set the background color to clear
-
-```swift
-override func viewDidLoad\(\) {
-  super.viewDidLoad\(\)
-
-  // Clear background colors from labels and buttons.
-  // backgroundColoredViews is a Reference Outlet collection created from the Storyboard
-
-  for view in backgroundColoredViews {
-    view.backgroundColor = UIColor.clear
-  }
-}
-```
 

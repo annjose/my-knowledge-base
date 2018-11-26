@@ -2,7 +2,9 @@
 
 * [Home](README.md)
 * [iOS](ios-home/README.md)
+  * [Debugging Tricks](ios-home/debugging-tricks.md)
   * [ViewController Concepts](ios-home/ios-concepts.md)
+  * [Nullability Annotations](ios-home/nullability-annotations.md)
   * [UI Testing XCTestUI](ios-home/xctest-ui.md)
   * [Xcode Concepts](ios-home/xcode-concepts.md)
 * [Mobile Development](mobile-development-1/README.md)
@@ -24,4 +26,5 @@
 
 * [iOS](good-references/ios.md)
 * [Misc](good-references/reference-articles.md)
+* [Good Blogs](good-references/good-blogs.md)
 

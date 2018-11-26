@@ -1,21 +1,23 @@
 # Git
 
-### Pull requests search filters
+### Good Articles
 
- [https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/](https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/)
+* Simple list of git commands - [https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* Git Rebase - [https://jeffkreeftmeijer.com/git-rebase/](https://jeffkreeftmeijer.com/git-rebase/)
 
-**Examples:**
+### How to Use Pull requests search filters
+
+ Source: [https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/](https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/)
 
 * To view the PRs that were closed with out merging
 
-  ```text
-         **is:pr is:unmerged  state:closed**
-  ```
+  `is:pr is:unmerged state:closed`
 
 * To see PRs that were closed without merging after a specific date
-  * is:pr is:unmerged state:closed closed:&gt;2018-04-01
 
-#### Set the Correct Email to GitHub account <a id="set-the-correct-email-to-github-account"></a>
+  `is:pr is:unmerged state:closed closed:>2018-04-01`
+
+### How to Set the Correct Email to GitHub account
 
 When you switch between the public github and Intuit github, you may have trouble seeing the correct user associated with the commits. In order to avoid this mismatch, you need to set the correct git user BEFORE you make the commits.
 
