@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [iOS](ios-home/README.md)
+  * [Useful Information](ios-home/useful-information.md)
   * [Debugging Tricks](ios-home/debugging-tricks.md)
   * [ViewController Concepts](ios-home/ios-concepts.md)
   * [Nullability Annotations](ios-home/nullability-annotations.md)
