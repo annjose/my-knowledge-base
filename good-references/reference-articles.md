@@ -6,7 +6,7 @@ description: A list of really good articles and references
 
 ### **GraphQL**
 
-* Comparison of REST and GraphQL[https://dev.to/sadarshannaiynar/graphql-or-rest-what-should-i-use-38mj](https://dev.to/sadarshannaiynar/graphql-or-rest-what-should-i-use-38mj)
+* Comparison of REST and GraphQL - [https://dev.to/sadarshannaiynar/graphql-or-rest-what-should-i-use-38mj](https://dev.to/sadarshannaiynar/graphql-or-rest-what-should-i-use-38mj)
 
 ### CryptoCurrency
 
