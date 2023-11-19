@@ -25,7 +25,6 @@
 
 ## References
 
-* [iOS](good-references/ios.md)
-* [Misc](good-references/reference-articles.md)
-* [Good Blogs](good-references/good-blogs.md)
-
+* [iOS](references/ios.md)
+* [Misc](references/reference-articles.md)
+* [Good Blogs](references/good-blogs.md)
