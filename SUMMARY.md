@@ -1,12 +1,12 @@
 # Table of contents
 
-* [🎉 Home](README.md)
+* [📚 Home](README.md)
 * [🤖 AI / ML / Gen AI](ai-ml/README.md)
   * [Generative AI - A Primer](ai-ml/generative-ai-a-primer.md)
   * [Course Notes - Google ML Intro](ai-ml/notes-from-google-ml-course.md)
-* [Git](git.md)
-* [How To Guides](howto.md)
-* [Good Reference Articles](good-reference-articles.md)
+* [🔀 Git](git.md)
+* [🎯 How To Guides](howto.md)
+* [🔖 Good Reference Articles](good-reference-articles.md)
 * [📳 Mobile Development](mobile-dev/README.md)
   * [iOS](mobile-dev/ios-home/README.md)
     * [Useful Information](mobile-dev/ios-home/useful-information.md)
@@ -21,5 +21,5 @@
   * [Good Articles Blogs](mobile-dev/ios.md)
   * [iOS Troubleshooting](mobile-dev/ios-gotchas.md)
   * [Cocoapods Troubleshooting](mobile-dev/cocoapods-gotchas.md)
-* [Miscellaneous](miscellaneous/README.md)
+* [💯 Miscellaneous](miscellaneous/README.md)
   * [Google Calendar API](miscellaneous/google-calendar-api.md)
