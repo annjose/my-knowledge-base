@@ -2,23 +2,20 @@
 description: Welcome to my Knowledge Base!
 ---
 
-# Home
+# 🎉 Home
 
-Hello there!
+Welcome to **Ann's Knowledge Hub** - a place where I publish and share what have I learned through many years, and I am still learning as a software developer. This includes code snippets, debugging tricks, good reference articles, problems I faced and how I solved them, and my own how-to guides for technology. It also includes many key concepts I have learned, mainly on iOS platform, but also other stuff like Git, CI/CD etc. I am consolidating more and more content from various sources including my personal notes in Obsidian, physical notebooks, GitHub etc.
 
-Welcome to my **Knowledge Base** - a place where I publish and share everything, I learn everyday as a software developer. That includes code snippets, debugging tricks, problems/pitfalls that I encountered while building software and how I solved them, good reference articles etc. It also includes many key concepts I have learned, mainly on iOS platform, but also other stuff like Git, CI/CD etc. See the full list on the left nav. I will continue to add more and more content from what I learn new as well as from my personal notes scattered around OneNote, notebooks, papers etc.
+### Why I created this space
 
-I know this site will be a tiny drop in the sea of thousands of such sites and resources that all of us use. But this is just an attempt to do my part in sharing what I have learned from them with other people in the developer community so that they can learn as well. My inspiration to create this Knowledge Base is drawn from these two quotes that resonate with me every day:
+I know this site will be a tiny drop in the sea of thousands of such sites and resources out there. But this is just an attempt to do my part in sharing what I have learned, hoping that someone will find this useful. At the very least, I come here and refer to many how-to guides regularly.&#x20;
 
-> **Learn something new every day.**
+Another reason to create this space was the inspiration from my two core principles of life - **Learn something new every day** and **Be the change you want to See.**
 
-> **Be the change you want to See.**
+I believe in continuous learning and sharing what I learn with others to help them along their journey.
 
-Hope you find this site useful, as much as I do when I come back here for some of the how-to's and links to reference articles.&#x20;
+{% hint style="success" %}
+This knowledge hub is built using [GitBook](https://www.gitbook.com/about), a fantastic doc generator that provides rich content editing, easy edit/publish workflow and seamless integration with GitHub.&#x20;
 
-{% hint style="info" %}
-This site is made using [GitBook](https://www.gitbook.com/about), an awesome site/doc generator tool that provides rich content editing, buttery smooth edit/publish workflow and seamless integration with GitHub. I love it so much that I find it hard to stop writing. If you haven't tried GitBook yet, you should definitely try it out.&#x20;
+I love it! :hearts: It is awesome and free for personal use.
 {% endhint %}
-
-Regards,\
-Ann.
