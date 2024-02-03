@@ -2,7 +2,7 @@
 description: '#git, #nextjs, #react'
 ---
 
-# How To Guides
+# 🎯 How To Guides
 
 ## How to add an environment variable in a React/NextJS app
 
@@ -61,3 +61,4 @@ Situation: You want to amend the last commit you made in a repo Solution
 * If you want to amend the _content of the commit_, then _before doing git commit --amend_, make the changes in the local files, then stage them (`git add .`) and then do `git commit --amend`. It will bring up the vim-like editor and show the commit message at the top. You can leave it as is or edit it. Save and Exit (`wq`)
 * If you want to amend _only the content and not the commit message_, you can run the command `git commit --amend --no-edit`- it will commit the staged changes without bringing up the vim editor to update the commit message.
 * Push the changes to remote (origin) forcefully `git push origin main --force`. (in GitHub desktop app, use the option 'Force push origin' at the top)
+

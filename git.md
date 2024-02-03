@@ -1,4 +1,4 @@
-# Git
+# 🔀 Git
 
 ### Good Articles
 
@@ -7,44 +7,45 @@
 
 ### How to Use Pull requests search filters
 
- Source: [https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/](https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/)
+&#x20;Source: [https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/](https://help.github.com/enterprise/2.10/user/articles/searching-issues-and-pull-requests/)
 
-* To view the PRs that were closed with out merging
+*   To view the PRs that were closed with out merging
 
-  `is:pr is:unmerged state:closed`
+    `is:pr is:unmerged state:closed`
+*   To see PRs that were closed without merging after a specific date
 
-* To see PRs that were closed without merging after a specific date
+    `is:pr is:unmerged state:closed closed:>2018-04-01`
 
-  `is:pr is:unmerged state:closed closed:>2018-04-01`
-
-### How to Set the Correct Email to GitHub account
+## How to Set the Correct Email to GitHub account
 
 When you switch between the public github and Intuit github, you may have trouble seeing the correct user associated with the commits. In order to avoid this mismatch, you need to set the correct git user BEFORE you make the commits.
 
 **Command to see the currently configure user**
 
-> git config --global user.email
+```sh
+git config --global user.email
+```
 
-**Command to get the current git user configure globally**
+Replace `user.email` with your actual email address like so: `git config --global user.email "your_email@example.com"`.
 
-> git config --global user.email "ann.jose@gmail.com"
->
-> git config --global user.email "ann\_jose@intuit.com"
+**Command to see all local configuration (can be run only from a git repo)**
 
-Command to see all local configuration \(can be run only from a git repo\)
+```sh
+git config --local --list
+```
 
-> git config --local --list
+### The Best Solution <a href="#the-best-solution" id="the-best-solution"></a>
 
-#### The Best Solution <a id="the-best-solution"></a>
+Configure the local repos pointing to public GitHub to use Gmail address. Configure global value to be corporate email address. (Or the other way around)
 
-* Configure the local repos pointing to public GitHub to use Gmail address. Configure global value to be Intuit EMail address
-  * > cd ~/dev/GitHub/my-learnings git config --local user.email "ann.jose@gmail.com"
-    >
-    > git config --global user.email "ann\_jose@intuit.com"
+```sh
+cd ~/dev/GitHub/my-learnings git config --local user.email <your-pers-email>
+git config --global user.email <your-corp-email>
+```
 
-    Result:
+#### Result:
 
-    > git config --local user.email ==&gt; ann.jose@gmail.com
-    >
-    > git config --global user.email ==&gt; ann\_jose@intuit.com
-
+```sh
+git config --local user.email ==> your-pers-email
+git config --global user.email ==> your-corp-email
+```
