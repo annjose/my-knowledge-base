@@ -1,4 +1,4 @@
-# Miscellaneous
+# 💯 Miscellaneous
 
 ## Command Line - How To Change the Shell
 

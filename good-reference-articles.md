@@ -2,7 +2,7 @@
 description: 'A curated list of good reference articles #graphql, #algorithms, #productivity'
 ---
 
-# Good Reference Articles
+# 🔖 Good Reference Articles
 
 ### **GraphQL**
 

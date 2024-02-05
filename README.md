@@ -2,7 +2,7 @@
 description: Welcome to my Knowledge Base!
 ---
 
-# 🎉 Home
+# 📚 Home
 
 Welcome to **Ann's Knowledge Hub** - a place where I publish and share what have I learned through many years, and I am still learning as a software developer. This includes code snippets, debugging tricks, good reference articles, problems I faced and how I solved them, and my own how-to guides for technology. It also includes many key concepts I have learned, mainly on iOS platform, but also other stuff like Git, CI/CD etc. I am consolidating more and more content from various sources including my personal notes in Obsidian, physical notebooks, GitHub etc.
 

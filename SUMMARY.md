@@ -1,9 +1,9 @@
 # Table of contents
 
 * [📚 Home](README.md)
-* [🤖 AI / ML / Gen AI](ai-ml/README.md)
-  * [Generative AI - A Primer](ai-ml/generative-ai-a-primer.md)
-  * [Course Notes - Google ML Intro](ai-ml/notes-from-google-ml-course.md)
+* [🤖 AI / ML / Gen AI](gen-ai-ml/README.md)
+  * [Generative AI - A Primer](gen-ai-ml/generative-ai-a-primer.md)
+  * [Course Notes - Google ML Intro](gen-ai-ml/notes-from-google-ml-course.md)
 * [🔀 Git](git.md)
 * [🎯 How To Guides](howto.md)
 * [🔖 Good Reference Articles](good-reference-articles.md)
