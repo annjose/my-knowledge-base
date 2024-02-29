@@ -4,7 +4,7 @@
 * [🤖 AI / ML / Gen AI](gen-ai-ml/README.md)
   * [Generative AI - A Primer](gen-ai-ml/generative-ai-a-primer.md)
   * [Course Notes - Google ML Intro](gen-ai-ml/notes-from-google-ml-course.md)
-* [🔀 Git](git.md)
+* [🔀 git](git.md)
 * [🎯 How To Guides](howto.md)
 * [🔖 Good Reference Articles](good-reference-articles.md)
 * [📳 Mobile Development](mobile-dev/README.md)
@@ -23,3 +23,8 @@
   * [Cocoapods Troubleshooting](mobile-dev/cocoapods-gotchas.md)
 * [💯 Miscellaneous](miscellaneous/README.md)
   * [Google Calendar API](miscellaneous/google-calendar-api.md)
+
+## 🌐 Web Development <a href="#web-dev" id="web-dev"></a>
+
+* [📚 Learning Resources](web-dev/learning-resources.md)
+* [🔎 Troubleshooting Issues](web-dev/troubleshooting-issues.md)
