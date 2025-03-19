@@ -28,3 +28,7 @@
 
 * [📚 Learning Resources](web-dev/learning-resources.md)
 * [🔎 Troubleshooting Issues](web-dev/troubleshooting-issues.md)
+
+***
+
+* [Bash](bash.md)
