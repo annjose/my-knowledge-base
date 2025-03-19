@@ -1,10 +1,11 @@
 # Table of contents
 
 * [📚 Home](README.md)
+* [Bash](bash.md)
+* [🔀 git](git.md)
 * [🤖 AI / ML / Gen AI](gen-ai-ml/README.md)
   * [Generative AI - A Primer](gen-ai-ml/generative-ai-a-primer.md)
   * [Course Notes - Google ML Intro](gen-ai-ml/notes-from-google-ml-course.md)
-* [🔀 git](git.md)
 * [🎯 How To Guides](howto.md)
 * [🔖 Good Reference Articles](good-reference-articles.md)
 * [📳 Mobile Development](mobile-dev/README.md)
@@ -28,7 +29,3 @@
 
 * [📚 Learning Resources](web-dev/learning-resources.md)
 * [🔎 Troubleshooting Issues](web-dev/troubleshooting-issues.md)
-
-***
-
-* [Bash](bash.md)
